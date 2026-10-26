@@ -58,7 +58,7 @@ class ValidateSceneSettings(
     # skip resolution check if Task name matches any of regex patterns
     skip_resolution_check = ["render", "Render"]  # regex
 
-    # skip frameStart, frameEnd check if Task and Folder name matches any of regex patt.
+    # skip frameStart, frameEnd check if Task and Folder name matche any regex
     skip_timelines_check = []  # regex
 
     def process(self, instance):
